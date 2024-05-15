@@ -1,3 +1,19 @@
+.social-icons {
+  display: flex;
+  justify-content: center;
+  padding: 5px; /* Adjust the padding value to your desired spacing */
+}
+
+.social-icons a {
+  margin-right: 10px; /* Adjust the margin value to your desired spacing */
+}
+
+.social-icons img {
+  height: 30px; /* Adjust the height to your desired size */
+  width: auto; /* Adjust the width to your desired size */
+}
+
+
 .App {
   text-align: center;
 }

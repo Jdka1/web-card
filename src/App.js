@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="header">
+        <h1>Aryan Mehra</h1>
+        <p>Future-minded dreamer, present engager.</p>
+        <div className="social-icons">
+          <a href="https://github.com/Jdka1" target="_blank" rel="noopener noreferrer">
+            <img src={`${process.env.PUBLIC_URL}/github_logo.png`} alt="GitHub" />
+          </a>
+          <a href="https://www.instagram.com/16mmphotos/" target="_blank" rel="noopener noreferrer">
+            <img src={`${process.env.PUBLIC_URL}/instagram_logo.png`} alt="Instagram" />
+          </a>
+          <a href="https://www.linkedin.com/in/aryan-mehra/" target="_blank" rel="noopener noreferrer">
+            <img src={`${process.env.PUBLIC_URL}/linkedin_logo.png`} alt="LinkedIn" />
+          </a>
+          <a href="https://www.youtube.com/@arymehr" target="_blank" rel="noopener noreferrer">
+            <img src={`${process.env.PUBLIC_URL}/youtube_logo.png`} alt="YouTube" />
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
