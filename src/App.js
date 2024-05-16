@@ -20,6 +20,9 @@ function App() {
             <img src={`${process.env.PUBLIC_URL}/youtube_logo.png`} alt="YouTube" />
           </a>
         </div>
+        <div className="me">
+          <img src={`${process.env.PUBLIC_URL}/header_image.png`} alt="Header" />
+        </div>
       </div>
     </div>
   );
