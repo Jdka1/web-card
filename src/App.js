@@ -1,4 +1,6 @@
 import './App.css';
+import ScrollIndicator from './components/ScrollIndicator';
+
 
 function App() {
   return (
@@ -23,6 +25,21 @@ function App() {
         <div className="me">
           <img src={`${process.env.PUBLIC_URL}/header_image.png`} alt="Header" />
         </div>
+      </div>
+
+      <div className="projects">
+        <div className="robotics panel">
+          <h2>Robotics</h2>
+          <img src={`${process.env.PUBLIC_URL}/roboticarm.gif`} alt="Robot Arm" />
+        </div>
+
+        <div className="machinelearning panel">
+          <h2>Machine Learning</h2>
+          <img src={`${process.env.PUBLIC_URL}/roboticarm.gif`} alt="Robot Arm" />
+        </div>
+
+
+        <ScrollIndicator />
       </div>
     </div>
   );

@@ -1,0 +1,31 @@
+.scroll-indicator {
+    position: fixed;
+    right: 50%;
+    bottom: 7vh;
+    transform: translateX(50%);
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .scroll-indicator.show {
+    opacity: 1;
+  }
+  
+  .scroll-arrow {
+    cursor: pointer;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .scroll-arrow .arrow {
+    display: block;
+    width: 0;
+    height: 0;
+    margin: 5px auto;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid black;
+  }
+  

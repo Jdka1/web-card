@@ -1,28 +1,18 @@
-.container {
-  position: relative; /* Position the container relative to the viewport */
-  height: 100vh; /* Set the container to take the full height of the viewport */
+.panel {
+  padding-top: 10vh;
 }
 
-.above {
-  height: 50px; /* Adjust height as needed */
+
+.projects {
+  padding-top: 10vh;
 }
 
-.me {
-  position: absolute; /* Position the .me div absolutely */
-  top: 50%; /* Move the top of the .me div to the vertical center of the viewport */
-  left: 0; /* Align the .me div to the left edge of the container */
-  right: 0; /* Align the .me div to the right edge of the container */
-  transform: translateY(-50%); /* Center the .me div vertically */
-  text-align: center; /* Horizontally center the content inside .me */
-}
 
 .me img {
-  padding-top: 10vh; /* Additional padding */
+  padding-top: 5vh; /* Additional padding */
   height: 50vh; /* Set the height of the image to 50% of the viewport height */
   /* Add any other styling as needed */
 }
-
-
 
 
 .header {
