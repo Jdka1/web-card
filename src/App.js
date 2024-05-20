@@ -21,26 +21,30 @@ function App() {
           <a href="https://www.youtube.com/@arymehr" target="_blank" rel="noopener noreferrer">
             <img src={`${process.env.PUBLIC_URL}/youtube_logo.png`} alt="YouTube" />
           </a>
+          <ScrollIndicator />
         </div>
         <div className="me">
           <img src={`${process.env.PUBLIC_URL}/header_image.png`} alt="Header" />
         </div>
       </div>
 
+
+      <br></br>
+
       <div className="projects">
-        <div className="robotics panel">
-          <h2>Robotics</h2>
+
+        <div className="project">
           <img src={`${process.env.PUBLIC_URL}/roboticarm.gif`} alt="Robot Arm" />
+          <div className="text-panel">
+            <h2>Project Title</h2>
+            <p>Description of the project goes here...</p>
+          </div>
         </div>
 
-        <div className="machinelearning panel">
-          <h2>Machine Learning</h2>
-          <img src={`${process.env.PUBLIC_URL}/roboticarm.gif`} alt="Robot Arm" />
-        </div>
 
 
-        <ScrollIndicator />
       </div>
+
     </div>
   );
 }
