@@ -9,6 +9,7 @@
   background-color: rgb(255, 255, 255); /* Translucent white background */
   padding: 10px; /* Add padding for better readability */
   border-radius: 8px; /* Rounded corners */
+  background-color: transparent;
 }
 
 .scroll-indicator.show {

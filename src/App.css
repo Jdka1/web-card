@@ -1,10 +1,99 @@
-/* App.css */
-.App {
-  font-family: Arial, sans-serif;
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+
+  position: absolute;
+  top: 0;
+  left: 50%; /* Move the left edge to the center of the viewport */
+  transform: translateX(-50%) translateY(100vh); /* Center horizontally and offset vertically */
+  width: 100vw;
 }
+
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  width: 80%;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.project .text-panel {
+  font-size: calc(6px + 0.8vw);
+}
+
+/* Portrait Orientation */
+.project.portrait {
+  flex-direction: row; /* Arrange items horizontally */
+  justify-content: center; /* Center items horizontally */
+}
+
+.project.portrait img {
+  width: 50%;
+}
+
+.project.portrait .text-panel {
+  text-align: left; /* Align text content to the left */
+  margin-left: 20px; /* Add spacing between image and text */
+  width: 50%;
+}
+
+/* Landscape Orientation */
+.project.landscape {
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.project.landscape img {
+  width: 70%;
+}
+
+.project.landscape .text-panel {
+  text-align: center; /* Center-align all text content within .text-panel */
+  margin-top: 20px; /* Add spacing between image and text */
+}
+
+.project.landscape .text-panel h2 {
+  text-align: center; /* Ensure h2 is centered */
+}
+
+.project.landscape .text-panel p {
+  text-align: left; /* Align paragraphs (p) to the left */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .project .text-panel {
+    text-align: center;
+    margin: 0 20px; /* Adjust margin for text alignment */
+  }
+}
+
+
+
+
+
+
+
+
 
 .header {
   text-align: center;
@@ -12,105 +101,18 @@
 }
 
 .header h1 {
-  margin: 10px 0;
+  margin-top: 6vh;
 }
 
 .me {
   text-align: center;
-  margin-top: 20px;
-}
-
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
-}
-
-.project {
-  flex: 1 1 300px;
-  background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.project img {
-  width: 100%;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
-.text-panel {
-  text-align: left;
-}
-
-/* Media Queries for Responsive Design */
-@media (max-width: 768px) {
-  .projects {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .project {
-    width: 100%;
-  }
-}
-
-
-
-.projects {
-  margin-top: 10vh;
-}
-
-.project {
-  display: flex;
-  justify-content: center; /* Centers the contents horizontally */
-  align-items: center; /* Centers the contents vertically */
-}
-
-.text-panel {
-  margin-left: 20px; /* Adjust as necessary */
-}
-
-/* Additional styling as needed */
-.project img {
-  width: 35%;
-  height: auto;
-  max-height: 80vh;
-  width: auto;
-}
-
-.project h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-.project p {
-  font-size: 1rem;
-}
-
-
-
-.panel {
-  padding-top: 10vh;
-}
-
-
-.projects {
-  padding-top: 10vh;
 }
 
 
 .me img {
-  padding-top: 5vh; /* Additional padding */
-  height: 50vh; /* Set the height of the image to 50% of the viewport height */
-  /* Add any other styling as needed */
-}
-
-
-.header {
-  padding-top: 2%;
+  margin-top: 8vh;
+  max-height: 50vh;
+  max-width: 90vw;
 }
 
 

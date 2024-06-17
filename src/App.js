@@ -29,13 +29,13 @@ function App() {
       </header>
 
       <br></br>
-
+      
       <main className="projects">
-        <div className="project">
+        <div className="project portrait">
           <img src={`${process.env.PUBLIC_URL}/roboticarm.gif`} alt="Robot Arm" />
           <div className="text-panel">
             <h2>Project Title</h2>
-            <p>Description of the project goes here...</p>
+            <p>Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...</p>
           </div>
         </div>
         {/* Add more projects as needed */}
