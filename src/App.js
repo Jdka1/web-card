@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import ScrollIndicator from './components/ScrollIndicator';
+import Project from './components/Project';
+
 
 function App() {
   return (
@@ -31,14 +33,19 @@ function App() {
       <br></br>
       
       <main className="projects">
-        <div className="project portrait">
-          <img src={`${process.env.PUBLIC_URL}/roboticarm.gif`} alt="Robot Arm" />
-          <div className="text-panel">
-            <h2>Project Title</h2>
-            <p>Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...Description of the project goes here...</p>
-          </div>
-        </div>
-        {/* Add more projects as needed */}
+        <Project
+          title="Robotics"
+          description="lorem ipsum"
+          image="roboticarm.gif"
+          orientation="portrait"
+        ></Project>
+
+        <Project
+          title="Robotics"
+          description="lorem ipsum"
+          image="roboticarm.gif"
+          orientation="portrait"
+        ></Project>
 
       </main>
     </div>
