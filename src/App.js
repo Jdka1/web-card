@@ -1,11 +1,11 @@
+import React from 'react';
 import './App.css';
 import ScrollIndicator from './components/ScrollIndicator';
-
 
 function App() {
   return (
     <div className="App">
-      <div className="header">
+      <header className="header">
         <h1>Aryan Mehra</h1>
         <p>Future-minded dreamer, present engager.</p>
         <div className="social-icons">
@@ -26,13 +26,11 @@ function App() {
         <div className="me">
           <img src={`${process.env.PUBLIC_URL}/header_image.png`} alt="Header" />
         </div>
-      </div>
-
+      </header>
 
       <br></br>
 
-      <div className="projects">
-
+      <main className="projects">
         <div className="project">
           <img src={`${process.env.PUBLIC_URL}/roboticarm.gif`} alt="Robot Arm" />
           <div className="text-panel">
@@ -40,11 +38,9 @@ function App() {
             <p>Description of the project goes here...</p>
           </div>
         </div>
+        {/* Add more projects as needed */}
 
-
-
-      </div>
-
+      </main>
     </div>
   );
 }

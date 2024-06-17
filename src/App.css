@@ -1,3 +1,64 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 10px 0;
+}
+
+.me {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.project {
+  flex: 1 1 300px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.text-panel {
+  text-align: left;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+    width: 100%;
+  }
+}
+
+
+
 .projects {
   margin-top: 10vh;
 }
