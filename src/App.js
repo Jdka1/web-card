@@ -41,7 +41,7 @@ function App() {
         ></Project>
 
         <Project
-          title="Robotics"
+          title="Piano"
           description="lorem ipsum"
           image="roboticarm.gif"
           orientation="portrait"
