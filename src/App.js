@@ -66,7 +66,7 @@ function App() {
         <Project
           title="Japanese"
           description="lorem ipsum"
-          image="dap_long.gif"
+          image="dap.gif"
           orientation="portrait"
         ></Project>
 
