@@ -5,7 +5,7 @@ function Project({ title, description, image, orientation }) {
 
   return (
     <div className={projectClassName}>
-      <img src={`${process.env.PUBLIC_URL}/${image}`} alt={title} />
+      <img src={`${process.env.PUBLIC_URL}/project_previews/${image}`} alt={title} />
       <div className="text-panel">
         <h2>{title}</h2>
         <p>{description}</p>

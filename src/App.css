@@ -18,18 +18,18 @@
   flex-direction: column;
   align-items: center;
   background-color: #f0f0f0;
-  padding: calc(20px + 1vw);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   width: 80%;
   margin-bottom: 20%;
+
+  padding: calc(2.5vw);
 }
 
 .project img {
   max-width: 100%;
   border-radius: 8px;
-  margin-bottom: 10px;
 }
 
 .project .text-panel {
@@ -63,12 +63,12 @@
 }
 
 .project.landscape img {
-  width: 70%;
+  width: 100%;
 }
 
 .project.landscape .text-panel {
   text-align: center; /* Center-align all text content within .text-panel */
-  margin-top: 2em; /* Add spacing between image and text */
+  margin-top: 0em; /* Add spacing between image and text */
 }
 
 .project.landscape .text-panel h2 {
