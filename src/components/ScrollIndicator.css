@@ -1,3 +1,37 @@
+.light-theme {
+  .scroll-indicator {
+    background-color: transparent;
+  }
+
+  .scroll-arrow {
+    color: black;
+  }
+
+  .scroll-arrow .arrow {
+    border-top: 10px solid black;
+  }
+}
+
+
+.dark-theme {
+  .scroll-indicator * {
+    background-color: transparent;
+  }
+
+  .scroll-arrow {
+    color: white;
+  }
+
+  .scroll-arrow .arrow {
+    border-top: 10px solid white;
+  }
+}
+
+
+
+
+
+
 .scroll-indicator {
   position: fixed;
   right: 50%;
