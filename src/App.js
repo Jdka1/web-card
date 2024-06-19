@@ -105,7 +105,16 @@ function App() {
 
         <Project
           title="Piano"
-          description={"Started (was forced) to learn piano starting in 2011 and stopped playing after a few years.\n\nIn the summer of 2023 I picked up the instrument again, initially as a form of leisure to relax, and started relearning the basics. Since then, it has found a very important place in my life.\n\nMost of my joints are hypermobile (which you can probably tell from this video of me playing La Campanella), meaning they extend past the point they are supposed to. This has caused my significant difficulties with injuries, especially in the hands and fingers, when playing sports or even just doing daily tasks. I saw many medical professionals but was unfortunately not able to fix this issue, and after a long time I decided to just deal with it.\n\n From when I restarted playing piano, my fingers have gotten much stronger as it has acted as a form of physical therapy for me, and I haven't had a single joint injury in the past year. This, and my pure enjoyment of playing the piano freely, is what makes me sure I'll stick with it this time."}
+          description={<p>Started (was forced) to learn piano starting in 2011 and stopped playing after a few years.
+            <br></br>
+            <br></br>
+            In the summer of 2023 I picked up the instrument again, initially as a form of leisure to relax, and started relearning the basics. Since then, it has found a very important place in my life.
+            <br></br>
+            <br></br>
+            Most of my joints are hypermobile (which you can probably tell from <a href="https://www.youtube.com/shorts/JBtvQVUFSKY" target="_blank">this video of me playing La Campanella</a>), meaning they extend past the point they are supposed to. This has caused my significant difficulties with injuries, especially in the hands and fingers, when playing sports or even just doing daily tasks. I saw many medical professionals but was unfortunately not able to fix this issue, and after a long time I decided to just deal with it.
+            <br></br>
+            <br></br>
+            From when I restarted playing piano, my fingers have gotten much stronger as it has acted as a form of physical therapy for me, and I haven't had a single joint injury in the past year. This, and my pure enjoyment of playing the piano freely, is what makes me sure I'll stick with it this time.</p>}
           image="piano.gif"
           orientation="portrait"
         ></Project>
