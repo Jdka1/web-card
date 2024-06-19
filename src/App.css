@@ -65,7 +65,9 @@
 }
 
 .project .text-panel {
-  font-size: calc(6px + 0.8vw);
+  font-size: calc(3px + 1.1vw);
+  line-height: 1.5em;
+  white-space: pre-line;
 }
 
 /* Portrait Orientation */

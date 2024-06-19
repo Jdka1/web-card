@@ -61,7 +61,7 @@ function App() {
           </div>
 
           <div className="me">
-            <img src={`${process.env.PUBLIC_URL}/header_image.png`} alt="Header" />
+            <img src={`${process.env.PUBLIC_URL}/header_image_print.png`} alt="Header" />
           </div>
         </header>
 
@@ -69,45 +69,52 @@ function App() {
         
         <main className="projects">
 
-          <Project
-            title="Practicum"
-            description="lorem ipsum"
-            image="lidar.gif"
-            orientation="landscape"
-          ></Project>
 
           <Project
             title="AI & ML"
-            description="lorem ipsum"
+            description={<p>Coding since <a href="https://scratch.mit.edu/users/staryan/" target="_blank">6 years old.</a> Building AI since <a href="https://replit.com/@amehra_5535/Hangman-Bot#main.cpp" target="_blank">11 years old.</a>
+            <br></br><br></br>
+            Diving deep into CV (computer vision) and NLP (natural language processing) the past 3 years.
+            <br></br><br></br>
+            The pace of advancement in deep learning technology excites me greatly, and I am glad to be a part of its open-source advancements for the democratization of AI. All of my research and projects are publicly available on my <a href="https://github.com/Jdka1" target="_blank">GitHub</a> with recreation, install, and application guides.
+
+            </p>}
             image="roboticarm.gif"
             orientation="portrait"
           ></Project>
 
           <Project
+            title="Practicum"
+            description={"lorem ipsum"}
+            image="lidar.gif"
+            orientation="landscape"
+          ></Project>
+
+          <Project
             title="Photography"
-            description="lorem ipsum"
+            description={"lorem ipsum"}
             image="holdingcamera.JPG"
             orientation="portrait"
           ></Project>
 
           <Project
             title="Finance"
-            description="lorem ipsum"
+            description={"lorem ipsum"}
             image="financeportfolio.png"
             orientation="portrait"
           ></Project>
 
 
           <Project
-            title="Japanese"
-            description="lorem ipsum"
+            title="日本語 (Japanese)"
+            description={<p>Immersing myself in Japanese language and culture since 2018. Participated in an exchange and host program in 2023—traveled to Osaka, Kyoto, and Hiroshima where I made lifelong friends. <br></br><br></br> Developed a <a href="https://github.com/Jdka1/Kanji-Recognition" target="_blank">CNN based OCR (optical character recognition) model</a> to identify Kanji characters in a research project. <br></br><br></br> Currently practicing Japanese for conversational and fluency and literacy, working on translations and essays, and planning to return to Japan soon.</p>}
             image="dap.gif"
             orientation="portrait"
           ></Project>
 
           <Project
             title="Piano"
-            description="lorem ipsum"
+            description={"lorem ipsum"}
             image="piano.gif"
             orientation="portrait"
           ></Project>

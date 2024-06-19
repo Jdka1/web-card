@@ -1,5 +1,5 @@
 .light-theme {
-  .scroll-indicator {
+  .scroll-indicator * {
     background-color: transparent;
   }
 
