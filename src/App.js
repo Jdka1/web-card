@@ -74,13 +74,11 @@ function App() {
           I have embarked on many natural expeditions with friends and family including multiple to Yosemite, Banff, and Alaska, my personal favorite.
           <br></br>
           <br></br>
-          In 9th grade, I created a video to teach <a href="https://www.youtube.com/watch?v=_EGjFYGZgb8" target="_blank">The 15 Rules of Photography, and Why You Should Break Them.</a>
+          In 9th grade, I created a video to teach <a href="https://www.youtube.com/watch?v=_EGjFYGZgb8" target="_blank">The 15 Rules of Photography, and Why You Should Break/Use Them.</a>
           </p>}
           image="holdingcamera.JPG"
           orientation="portrait"
         ></Project>
-
-        {/* landscape, wildlife, and cityscape photography video on basic rules (that you can break) of photography*/}
 
         <Project
           title="Finance"
