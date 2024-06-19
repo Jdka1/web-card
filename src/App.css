@@ -5,11 +5,11 @@
 }
 
 .project * {
-  background-color: #f0f0f0;
+  background-color: #f3f3f3;
 }
 
 .project {
-  background-color: #f0f0f0;
+  background-color: #f3f3f3;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -36,8 +36,7 @@
   box-sizing: border-box;
   width: 70%;
   margin-bottom: 15%;
-
-  padding: calc(2vw);
+  padding: calc(2.2vw);
 }
 
 .project img {
