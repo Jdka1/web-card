@@ -45,7 +45,7 @@
 }
 
 .project .text-panel {
-  font-size: calc(2.5px + 1.1vw);
+  font-size: calc(2.5px + 0.8vw);
   line-height: 1.5em;
   white-space: pre-line;
 }
