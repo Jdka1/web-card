@@ -17,8 +17,4 @@ Cards
 - [ ] Travel
 - [ ] Sports
 
-- [ ] About page, resume, home page, contact, etc
-
-
-Design
-- [ ] Light/dark mode
+- [ ] About page, resume, home page, contact, etc. Email
