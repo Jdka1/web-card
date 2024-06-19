@@ -1,35 +1,16 @@
 
-
-.light-theme {
-  * {
-    background-color: white;
-    color: black;
-  }
-  
-  .project * {
-    background-color: #f0f0f0;
-  }
-  
-  .project {
-    background-color: #f0f0f0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+* {
+  background-color: white;
+  color: black;
 }
 
-.dark-theme {
-  * {
-    background-color: #222222; /* Dark gray background */
-    color: white;
-  }
-  
-  .project * {
-    background-color: #333333; /* Slightly lighter gray for elements within project */
-  }
-  
-  .project {
-    background-color: #333333; /* Matches project element background */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.200); /* White shadow for better visibility */
-  }
+.project * {
+  background-color: #f0f0f0;
+}
+
+.project {
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -38,7 +19,7 @@
   flex-wrap: wrap;
   justify-content: center;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0;
 
   position: absolute;
   top: 0;
@@ -53,8 +34,8 @@
   align-items: center;
   border-radius: 8px;
   box-sizing: border-box;
-  width: 80%;
-  margin-bottom: 20%;
+  width: 70%;
+  margin-bottom: 15%;
 
   padding: calc(2vw);
 }
@@ -65,7 +46,7 @@
 }
 
 .project .text-panel {
-  font-size: calc(3px + 1.1vw);
+  font-size: calc(2.5px + 1.1vw);
   line-height: 1.5em;
   white-space: pre-line;
 }
