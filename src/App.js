@@ -61,7 +61,7 @@ function App() {
 
         <Project
           title="日本語 (Japanese)"
-          description={<p>Immersing myself in Japanese language and culture since 2018. Participated in an exchange and host program in 2023—traveled to Osaka, Kyoto, and Hiroshima where I made lifelong friends. <br></br><br></br> Developed a <a href="https://github.com/Jdka1/Kanji-Recognition" target="_blank">CNN based OCR (optical character recognition) model</a> to identify Kanji characters in a research project. <br></br><br></br> Currently practicing Japanese for conversational and fluency and literacy, working on translations and essays, and planning to return to Japan soon.</p>}
+          description={<p>Immersing myself in Japanese language and culture since 2018. Participated in an exchange and host program in 2023—traveled to Osaka, Kyoto, and Hiroshima where I made lifelong friends. <br></br><br></br> Developed a <a href="https://github.com/Jdka1/Kanji-Recognition" target="_blank">CNN based OCR (optical character recognition) model</a> to identify Kanji characters in a research project. <br></br><br></br> Currently practicing Japanese for conversational and fluency and literacy, working on <a href="https://docs.google.com/document/d/1Or-LR5FuShHkpLk3xenBmfHvi2g_QY8uS49a74R2Dhc/preview" target="_blank">translations</a> and <a href="https://drive.google.com/file/d/1KcFXxN0al1vz-BiIN9fTVLcIatVbKGjo/view?usp=sharing" target="_blank">other various projects</a>, and planning to return to Japan soon.</p>}
           image="dap.gif"
           orientation="portrait"
         ></Project>
