@@ -1,0 +1,160 @@
+
+* {
+  background-color: white;
+  color: black;
+}
+
+.project * {
+  background-color: #f3f3f3;
+}
+
+.project {
+  background-color: #f3f3f3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0;
+
+  position: absolute;
+  top: 0;
+  left: 50%; /* Move the left edge to the center of the viewport */
+  transform: translateX(-50%) translateY(100vh); /* Center horizontally and offset vertically */
+  width: 100vw;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 70%;
+  margin-bottom: 15%;
+  padding: calc(2.2vw);
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.project .text-panel {
+  font-size: calc(2.5px + 0.82vw);
+  line-height: 1.5em;
+  white-space: pre-line;
+}
+
+/* Portrait Orientation */
+.project.portrait {
+  flex-direction: row; /* Arrange items horizontally */
+  justify-content: center; /* Center items horizontally */
+}
+
+.project.portrait img {
+  width: 50%;
+}
+
+.project.portrait .text-panel {
+  text-align: left; /* Align text content to the left */
+  margin-left: 2em; /* Add spacing between image and text */
+  width: 50%;
+}
+
+.project .text-panel h2 {
+  font-size: 2em;
+}
+
+/* Landscape Orientation */
+.project.landscape {
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.project.landscape img {
+  width: 100%;
+}
+
+.project.landscape .text-panel {
+  text-align: center; /* Center-align all text content within .text-panel */
+  margin-top: 0em; /* Add spacing between image and text */
+}
+
+.project.landscape .text-panel h2 {
+  text-align: center; /* Ensure h2 is centered */
+}
+
+.project.landscape .text-panel p {
+  text-align: left; /* Align paragraphs (p) to the left */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .project .text-panel {
+    text-align: center;
+  }
+}
+
+
+
+
+
+.header h1 {
+  margin: 0;
+  padding-top: 6vh;
+}
+
+.me {
+  text-align: center;
+}
+
+
+.me img {
+  margin-top: 8vh;
+  max-height: 50vh;
+  max-width: 90vw;
+  padding-bottom: 50vh;
+}
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+.social-icons img {
+  height: 30px;
+  width: auto;
+}
+
+.header {
+  text-align: center;
+}
+
+
+
+h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 a:hover {
+  text-decoration: underline;
+  color: darkgray; /* Optional: change color on hover */
+}
+

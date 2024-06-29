@@ -1,0 +1,72 @@
+/* Container for the articles page */
+.articles-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for each individual article */
+.article-card {
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.article-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Article title */
+.article-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Article summary */
+.article-summary {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Article metadata (e.g., date) */
+.article-card-meta {
+  font-size: 0.875em;
+  color: #999;
+}
+
+/* Read more link */
+.read-more {
+  font-size: 1em;
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.read-more:hover {
+  color: #004999;
+}
+
+.article-card h2 {
+  background-color: #f9f9f9;
+}
+
+.article-card p {
+  background-color: #f9f9f9;
+}
+
+.article-card a {
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.articles-container h1 {
+  text-align: center;
+  font-size: 2em; /* Optional: Adjust the font size */
+  color: #333; /* Optional: Adjust the color */
+  margin-bottom: 20px; /* Optional: Add space below the heading */
+}
