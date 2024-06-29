@@ -14,8 +14,11 @@ Cards
 - [ ] Personal blog/articles
 - [ ] Geography
 - [ ] Travel
-- [ ] Sports
+- [ ] Sports (boxing video)
+
+
 
 Articles
+- [x] Phone addiction
 - [ ] Coinbase analysis
-- [ ] Phone addiction
+
