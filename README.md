@@ -21,4 +21,4 @@ Cards
 Articles
 - [x] Phone addiction
 - [ ] Coinbase analysis
-
+- [ ] Why you should convince your parents to get you an investment account
