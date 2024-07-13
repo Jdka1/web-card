@@ -251,27 +251,6 @@ function App() {
         ></Project>
 
         <Project
-          title="Travel"
-          description={<p></p>}
-          image="boat.gif"
-          orientation="portrait"
-        ></Project>
-
-        <Project
-          title="Geography"
-          description={<p></p>}
-          image="master_division.png"
-          orientation="portrait"
-        ></Project>
-
-        <Project
-          title="Pets"
-          description={<p></p>}
-          image="jerry.gif"
-          orientation="portrait"
-        ></Project>
-
-        <Project
           title={<a href="/articles">Articles/Blog</a>}
           description={<p></p>}
           image="articles.jpg"
