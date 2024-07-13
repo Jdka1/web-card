@@ -4,19 +4,20 @@
 **Add:**
 
 Cards
-- [x] ML/AI (GitHub projects, physical projects, robotics, etc)
+- [x] ML/AI
 - [x] Internships
 - [x] Photography
 - [x] Finance
 - [x] Japanese
 - [x] Piano
 - [x] About page, resume, home page, contact, etc. Email
-- [ ] Personal blog/articles
-- [ ] Geography
-- [ ] Travel
+- [x] Personal blog/articles
 - [ ] Sports (boxing video)
+- [ ] Find gifs for all cards
 
-
+Codebase:
+- [ ] Allow projects to link to sub-pages in website
+- [ ] Link articles, photography
 
 Articles
 - [x] Phone addiction

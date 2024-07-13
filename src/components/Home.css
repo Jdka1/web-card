@@ -25,7 +25,7 @@
   top: 0;
   left: 50%; /* Move the left edge to the center of the viewport */
   transform: translateX(-50%) translateY(100vh); /* Center horizontally and offset vertically */
-  width: 100vw;
+  width: 125vw;
 }
 
 .project {
@@ -45,7 +45,7 @@
 }
 
 .project .text-panel {
-  font-size: calc(2.5px + 0.82vw);
+  font-size: calc(7.5px + 0.55vw);
   line-height: 1.5em;
   white-space: pre-line;
 }

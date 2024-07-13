@@ -1,3 +1,11 @@
+/*
+TODO:
+ALLOW PROJECTS TO LINK TO SUB PAGES IN WEBSITE
+
+
+
+*/
+
 import React from 'react';
 
 function Project({ title, description, image, orientation }) {
