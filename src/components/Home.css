@@ -173,3 +173,27 @@
 .project.landscape .text-panel p {
   text-align: left; /* Align paragraphs (p) to the left */
 }
+
+
+.project {
+  width: 93%;
+  overflow: hidden;
+}
+
+.project.portrait {
+  /* overflow: hidden; */
+  max-height: 75vh;
+}
+
+
+
+.project {
+  min-height: auto;
+  width: auto;
+}
+
+.project img {
+  width: auto;
+  max-height: 100%;
+  height: auto;
+}
