@@ -17,13 +17,13 @@ Cards
 Articles
 - [x] Phone addiction
 - [ ] Coinbase analysis
-- [ ] Why you should convince your parents to get you an investment account
+- [ ] Why you should get your child a custodial investment account (kids to send to parents)
 
 TODO:
 - [ ] Allow projects to link to sub-pages in website
 - [ ] Link articles, photography
 - [ ] Find gifs for all cards
 - [ ] Short description, each card links to a page
-
+- [ ] Increase distance between cards on phone
 
 
