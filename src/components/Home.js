@@ -245,7 +245,7 @@ function App() {
 
         <Project
           title="Sports"
-          description={<p></p>}
+          description="Rower @ Pacific Rowing Club & Redwood Scullers, basketball point guard @ The Nueva School, and track star"
           image="boxing.gif"
           orientation="landscape"
         ></Project>

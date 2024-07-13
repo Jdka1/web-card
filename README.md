@@ -18,6 +18,7 @@ Cards
 Codebase:
 - [ ] Allow projects to link to sub-pages in website
 - [ ] Link articles, photography
+- [ ] Prohibit lateral scrolling
 
 Articles
 - [x] Phone addiction

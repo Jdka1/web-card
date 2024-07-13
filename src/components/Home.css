@@ -45,7 +45,7 @@
 }
 
 .project .text-panel {
-  font-size: calc(7.5px + 0.55vw);
+  font-size: calc(5.5px + 0.5vw + 0.5vh);
   line-height: 1.5em;
   white-space: pre-line;
 }
@@ -67,7 +67,7 @@
 }
 
 .project .text-panel h2 {
-  font-size: 2em;
+  font-size: 1.7em;
 }
 
 /* Landscape Orientation */
@@ -145,16 +145,3 @@
 .header {
   text-align: center;
 }
-
-
-
-h2 a {
-  text-decoration: none;
-  color: black;
-}
-
-h2 a:hover {
-  text-decoration: underline;
-  color: darkgray; /* Optional: change color on hover */
-}
-
