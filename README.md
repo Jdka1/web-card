@@ -15,6 +15,8 @@ Cards
 - [ ] Sports (boxing video)
 - [ ] Find gifs for all cards
 
+- [ ] Short description, each card links to a page
+
 Codebase:
 - [ ] Allow projects to link to sub-pages in website
 - [ ] Link articles, photography
