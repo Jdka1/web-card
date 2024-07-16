@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Articles.css';
 import articles from './articlesData'; // Import articles data
 
 const ArticlesPage = () => {
+
+  useEffect(() => {
+    document.title = 'Articles';
+  }, []);
+
   return (
     <div className="articles-container">
       <h1>My Writing and Thoughts</h1> {/* Centered header */}

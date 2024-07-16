@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import './ArticleDetail.css'; // Create a separate CSS file for detailed view styles
-import articles from './articlesData'; // Import articles data
+import articles from './articlesData';
 
 const ArticleDetail = () => {
   const { id } = useParams();
   const article = articles.find(article => article.id === parseInt(id));
+  
+  useEffect(() => {
+    document.title = `${article.title}`;
+  }, []);
 
   if (!article) {
     return <div>Article not found</div>;
   }
+  
 
   return (
     <div className="article-detail-container">
