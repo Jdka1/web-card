@@ -118,8 +118,8 @@
 .project.landscape {
   flex-direction: column; /* Stack items vertically */
   align-items: center; /* Center items horizontally */
-  
 }
+
 .project.landscape img {
   width: 100%;
 }
@@ -161,3 +161,25 @@
 }
 
 
+.project {
+  display: flex;
+  align-items: center; /* Vertically centers the content */
+}
+
+.project-link {
+  display: block;
+}
+
+.text-panel {
+  margin-left: 16px; /* Adjust this value as needed */
+}
+
+
+
+.portrait .project-link {
+  width: 50%;
+}
+
+.project-link img {
+  width: 100% !important;
+}

@@ -146,6 +146,7 @@ function App() {
           ></Project>
 
           <Project
+            link="/gallery_room"
             title="Photography"
             description={
               <p>
@@ -252,7 +253,8 @@ function App() {
           ></Project>
 
           <Project
-            title={<a href="/articles">Articles/Blog</a>}
+            link="/articles"
+            title="Articles/Blog"
             description={<p></p>}
             image="articles.jpg"
             orientation="landscape"
