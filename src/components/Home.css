@@ -1,10 +1,5 @@
 * {
-  background-color: white;
   color: black;
-}
-
-.project * {
-  background-color: #f3f3f3;
 }
 
 .project {
@@ -19,7 +14,6 @@
   overflow-y: auto; /* Enable vertical scrolling */
   max-width: 1200px;
   margin: 0 auto; /* Center the container horizontally */
-  padding-top: 20px; /* Optional: Add padding to the top */
   width: 100%;
 }
 
@@ -41,9 +35,17 @@
 }
 
 .project .text-panel {
-  font-size: calc(5.5px + 0.5vw + 0.5vh);
+  /* font-size: calc(5px + 0.6vw + 0.2vh); */
+  font-size: calc(4.5px + 1.333vw);
+
   line-height: 1.5em;
   white-space: pre-line;
+}
+
+@media screen and (min-width: 1200px) {
+  .project .text-panel {
+     font-size: calc(16px + 4.5px);
+  }
 }
 
 .project .text-panel h2 {
@@ -114,7 +116,7 @@
   margin-top: 8vh;
   max-height: 50vh;
   max-width: 90vw;
-  padding-bottom: 50vh;
+  padding-bottom: 40vh;
 }
 
 .social-icons {

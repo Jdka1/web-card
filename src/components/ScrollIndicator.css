@@ -13,24 +13,6 @@
 }
 
 
-.dark-theme {
-  .scroll-indicator * {
-    background-color: transparent;
-  }
-
-  .scroll-arrow {
-    color: white;
-  }
-
-  .scroll-arrow .arrow {
-    border-top: 10px solid white;
-  }
-}
-
-
-
-
-
 
 .scroll-indicator {
   position: fixed;
@@ -40,7 +22,6 @@
   z-index: 9999;
   opacity: 0;
   transition: opacity 0.3s ease;
-  background-color: rgb(255, 255, 255); /* Translucent white background */
   padding: 10px; /* Add padding for better readability */
   border-radius: 8px; /* Rounded corners */
   background-color: transparent;
