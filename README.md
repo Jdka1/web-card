@@ -26,8 +26,8 @@ TODO:
 - [ ] Find gifs for all cards
 - [ ] Short description, each card links to a page
 - [ ] Increase distance between cards on phone
-- [ ] change order
+- [ ] change order of cards
 - [ ] group photos
-- [ ] click to go back to gallery
+- [ ] click to go back to gallery indicator
 - [ ] change refresh time on staryan
 - [ ] click to fullscreen
