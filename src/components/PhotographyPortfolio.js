@@ -2,19 +2,19 @@ import React, { useState, useEffect, useRef } from 'react';
 import "./PhotographyPortfolio.css";
 
 const photos = [
-  { src: "4V7A0096.jpg", caption: "Sunset over the mountains" },
-  { src: "4V7A0138-Edit.jpg", caption: "Eagle in flight" },
-  { src: "4V7A0770.jpg", caption: "Serene lake view" },
-  { src: "4V7A1319.jpg", caption: "Moose" },
-  { src: "4V7A2066.jpg", caption: "Mountain peak" },
-  { src: "4V7A3643.jpg", caption: "Wildlife in the wild" },
-  { src: "4V7A3683.jpg", caption: "Calm river" },
-  { src: "4V7A3686.jpg", caption: "Flowing waterfall" },
-  { src: "4V7A5823-Edit-Edit.jpg", caption: "Starry night sky" },
-  { src: "4V7A5833-Enhanced-NR-Edit.jpg", caption: "Golden sunrise" },
-  { src: "4V7A6203.jpg", caption: "Majestic mountains" },
-  { src: "4V7A6236.jpg", caption: "Peaceful meadow" },
-  { src: "4V7A6479-Edit.jpg", caption: "Desert landscape" },
+  { src: "4V7A0096.jpg", caption: "Sunset over the mountains", orientation: "landscape" },
+  { src: "4V7A0138-Edit.jpg", caption: "Eagle in flight", orientation: "landscape" },
+  { src: "4V7A0770.jpg", caption: "Serene lake view", orientation: "landscape" },
+  { src: "4V7A1319.jpg", caption: "Moose", orientation: "portrait" },
+  { src: "4V7A2066.jpg", caption: "Mountain peak", orientation: "landscape" },
+  { src: "4V7A3643.jpg", caption: "Wildlife in the wild", orientation: "portrait" },
+  { src: "4V7A3683.jpg", caption: "Calm river", orientation: "landscape" },
+  { src: "4V7A3686.jpg", caption: "Flowing waterfall", orientation: "landscape" },
+  { src: "4V7A5823-Edit-Edit.jpg", caption: "Starry night sky", orientation: "landscape" },
+  { src: "4V7A5833-Enhanced-NR-Edit.jpg", caption: "Golden sunrise", orientation: "landscape" },
+  { src: "4V7A6203.jpg", caption: "Majestic mountains", orientation: "portrait" },
+  { src: "4V7A6236.jpg", caption: "Peaceful meadow", orientation: "landscape" },
+  { src: "4V7A6479-Edit.jpg", caption: "Desert landscape", orientation: "landscape" },
 ];
 
 const FullscreenOverlay = ({ src, onClose }) => {
@@ -25,14 +25,14 @@ const FullscreenOverlay = ({ src, onClose }) => {
   );
 };
 
-const PhotoItem = ({ src, caption, onImageClick }) => {
+const PhotoItem = ({ src, caption, orientation, onImageClick }) => {
   const imgRef = useRef(null);
   const captionRef = useRef(null);
   const [imgHeight, setImgHeight] = useState(0);
 
   useEffect(() => {
     const updateCaptionPosition = () => {
-      if (imgRef.current && imgRef.current.classList.contains('landscape')) {
+      if (imgRef.current && orientation === 'landscape') {
         setImgHeight(imgRef.current.clientHeight);
       }
     };
@@ -48,34 +48,20 @@ const PhotoItem = ({ src, caption, onImageClick }) => {
     return () => {
       window.removeEventListener('resize', updateCaptionPosition);
     };
-  }, []);
-
-  useEffect(() => {
-    const img = imgRef.current;
-    const caption = captionRef.current;
-
-    if (img) {
-      if (img.naturalWidth > img.naturalHeight) {
-        img.classList.add('landscape');
-        caption.classList.add('landscape');
-      } else {
-        img.classList.add('portrait');
-        caption.classList.add('portrait');
-      }
-    }
-  }, []);
+  }, [orientation]);
 
   return (
-    <div className="photo-item" onClick={() => onImageClick(`${process.env.PUBLIC_URL}/photography/${src}`)}>
+    <div className={`photo-item ${orientation}`} onClick={() => onImageClick(`${process.env.PUBLIC_URL}/photography/${src}`)}>
       <img
         ref={imgRef}
         src={`${process.env.PUBLIC_URL}/photography/${src}`}
         alt={caption}
+        className={orientation}
       />
       <p
         ref={captionRef}
-        className="photo-caption"
-        style={imgRef.current && imgRef.current.classList.contains('landscape') ? { top: `calc(50% + ${imgHeight / 2.1}px)` } : {}}
+        className={`photo-caption ${orientation}`}
+        style={orientation === 'landscape' ? { top: `calc(50% + ${imgHeight / 2.1}px)` } : {}}
       >
         {caption}
       </p>
@@ -106,7 +92,13 @@ const PhotoPortfolio = () => {
       </header>
       <div className="photo-grid">
         {photos.map((photo, index) => (
-          <PhotoItem key={index} src={photo.src} caption={photo.caption} onImageClick={handleImageClick} />
+          <PhotoItem 
+            key={index} 
+            src={photo.src} 
+            caption={photo.caption} 
+            orientation={photo.orientation} 
+            onImageClick={handleImageClick} 
+          />
         ))}
       </div>
       {fullscreenSrc && <FullscreenOverlay src={fullscreenSrc} onClose={handleCloseFullscreen} />}
