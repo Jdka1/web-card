@@ -29,3 +29,5 @@ TODO:
 - [ ] change order
 - [ ] group photos
 - [ ] click to go back to gallery
+- [ ] change refresh time on staryan
+- [ ] click to fullscreen
