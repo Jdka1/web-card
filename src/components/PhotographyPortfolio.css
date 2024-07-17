@@ -19,7 +19,7 @@
 
 @media (max-width: 1500px) {
   .photo-caption {
-    font-size: calc(0.45em + 0.6vw) !important;
+    font-size: calc(0.45em + 0.75vw) !important;
   }
 }
 
@@ -57,7 +57,7 @@
   width: 100%;
   margin-bottom: auto;
   margin-top: auto;
-  font-size: calc(0.5em + 0.4vw);
+  font-size: calc(0.5em + 0.5vw);
   font-weight: 300;
   color: rgb(73, 73, 73);
 }
@@ -93,7 +93,8 @@
 /* ########### HEADER ############### */
 
 .gallery-header {
-  margin-top: 3%;
+  margin-top: calc(1em + 2%);
+  margin-bottom: calc(1em - 5%);
   text-align: center;
 }
 
@@ -107,7 +108,6 @@
   font-size: calc(0.5em + 1.5vw);
   font-weight: lighter;
   margin-top: 0.2em;
-  margin-bottom: -2%;
 }
 
 
