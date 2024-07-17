@@ -3,97 +3,135 @@
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
-  padding: 3%;
-  padding-bottom: 30vh;
-  
-  gap: 1%;
+  padding: 5%;
+  margin-bottom: 5em;
+
+  column-gap: 1.5%;
   row-gap: 0.5%;
 }
 
 
 @media (max-width: 1500px) {
   .photo-grid {
-    grid-template-columns: repeat(3, 1fr); /* 3 items per row for smaller screens */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 1200px) {
-  .photo-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 items per row for even smaller screens */
+@media (max-width: 1500px) {
+  .photo-caption {
+    font-size: calc(0.45em + 0.6vw) !important;
   }
 }
 
-/* Grid items */
+
+.photo-item img {
+  margin: auto;
+  display: block;
+  margin-top: auto;
+  max-height: 85%;
+  max-width: 96%;
+  margin-bottom: 0;
+}
+
 .photo-item {
   position: relative;
-  width: 100%;
-  padding-top: 100%; /* 1:1 Aspect Ratio */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.1s;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  aspect-ratio: 1;
 }
 
-/* Images */
-.photo-item img {
-  background-color: white;
 
+.photo-item:hover {
+  transform: scale(1.005);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.photo-caption {
+  position: relative;
+  width: 100%;
+  margin-bottom: auto;
+  margin-top: auto;
+  font-size: calc(0.5em + 0.4vw);
+  font-weight: 300;
+  color: rgb(73, 73, 73);
+}
+
+
+.photo-caption.landscape {
   position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 5%;
+}
+
+.photo-caption.portrait {
+  position: relative;
+  margin-bottom: 4%;
+  margin-top: 2.5%;
+}
+
+/* ############ portrait landscape ################ */
+
+.photo-item img.landscape {
+  position: absolute;
+  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  width: 100%;
-  height: 100%;
-  object-fit: scale-down;
-  transform: translate(-50%, -50%);
-  display: block;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  cursor: pointer; /* Change cursor to pointer for click indication */
-  transition: transform 0.2s;
 }
 
-/* Hover effect */
-.photo-item img:hover {
-  transform: translate(-50%, -50%) scale(1.01);
-  z-index: 1000;
-  object-fit: scale-down;
-
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.075);
-}
-
-/* Fullscreen effect */
-.photo-item img.fullscreen {
-  transition: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  transform: none;
-  border-radius: 0;
-  z-index: 1000;
-}
-
-.no-transition {
-  transition: none !important;
+.photo-item img.portrait {
+  max-height: 87.5%;
 }
 
 
+/* ########### HEADER ############### */
 
 .gallery-header {
-  margin-top: 4vh;
+  margin-top: 3%;
   text-align: center;
 }
 
 .gallery-header h1 {
-  font-size: 2.5em;
+  font-size: calc(1em + 3vw);
   font-weight: lighter;
   margin: 0;
 }
 
-.gallery-header p {
-  font-size: 1em;
-  font-weight: lighter;
-}
-
 .gallery-header h3 {
-  font-size: 1.3em;
+  font-size: calc(0.5em + 1.5vw);
   font-weight: lighter;
   margin-top: 0.2em;
-  margin-bottom: -1.5vh;
+  margin-bottom: -2%;
+}
+
+
+
+
+/* ########## Fullscreen CSS ############ */
+
+
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.fullscreen-overlay img {
+  max-width: 95%;
+  max-height: 95%;
+  object-fit: contain;
+  cursor: zoom-out;
 }
