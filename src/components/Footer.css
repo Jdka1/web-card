@@ -1,0 +1,13 @@
+/* src/components/Footer.css */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ffffff;
+  margin-bottom: 0 !important;
+  margin-top: 20vh;
+}
+
+.footer p {
+  margin: 0;
+  color: gray;
+}

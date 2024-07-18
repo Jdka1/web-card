@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import './ArticleDetail.css'; // Create a separate CSS file for detailed view styles
 import articles from './articlesData';
+import Header from "./Header.js";
+
 
 const ArticleDetail = () => {
   const { id } = useParams();
@@ -19,7 +21,7 @@ const ArticleDetail = () => {
   return (
     <div className="article-detail-container">
       <h1>{article.title}</h1>
-      <p className="article-meta">Published on {article.date}</p>
+      <div className="back"><p className="article-meta">Published on {article.date} | <a href="/reflections">back to reflections</a></p></div>
       <div className="article-content">{article.content}</div>
     </div>
   );

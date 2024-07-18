@@ -28,6 +28,4 @@ TODO:
 - [ ] Increase distance between cards on phone
 - [ ] change order of cards
 - [ ] group photos
-- [ ] click to go back to gallery indicator
 - [ ] change refresh time on staryan
-- [ ] click to fullscreen

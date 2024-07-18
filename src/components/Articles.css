@@ -68,5 +68,5 @@
   text-align: center;
   font-size: 2em; /* Optional: Adjust the font size */
   color: #333; /* Optional: Adjust the color */
-  margin-bottom: 20px; /* Optional: Add space below the heading */
+  margin-bottom: 0; /* Optional: Add space below the heading */
 }

@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import "./PhotographyPortfolio.css";
+import Header from "./Header.js";
 
 const photos = [
   { src: "4V7A0096.jpg", caption: "Sunset over the mountains", orientation: "landscape" },
@@ -89,6 +90,7 @@ const PhotoPortfolio = () => {
       <header className="gallery-header">
         <h1>Landscape and Wildlife Gallery</h1>
         <h3>Aryan Mehra</h3>
+        <Header />
       </header>
       <div className="photo-grid">
         {photos.map((photo, index) => (

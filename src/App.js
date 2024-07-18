@@ -4,16 +4,18 @@ import Home from './components/Home';
 import ArticleDetail from './components/ArticleDetail';
 import Articles from './components/ArticlesPage';
 import PhotographyPortfolio from './components/PhotographyPortfolio'
+import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/articles" element={<Articles />} />
-        <Route path="/articles/:id" element={<ArticleDetail />} />
+        <Route path="/reflections" element={<Articles />} />
+        <Route path="/reflection/:id" element={<ArticleDetail />} />
         <Route path="/gallery_room" element={<PhotographyPortfolio />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

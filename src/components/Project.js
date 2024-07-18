@@ -7,7 +7,7 @@ function Project({ link, title, description, image, orientation }) {
   const content = (
     <>
       {link ? (
-        <a href={link} className="project-link">
+        <a href={link} className="project-link" target="_blank" rel="noreferrer" >
           <img
             src={`${process.env.PUBLIC_URL}/project_previews/${image}`}
             alt={title}

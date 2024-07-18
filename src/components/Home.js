@@ -76,13 +76,14 @@ function App() {
             description={
               <p>
                 Coding since{" "}
-                <a href="https://scratch.mit.edu/users/staryan/" target="_blank">
+                <a href="https://scratch.mit.edu/users/staryan/" target="_blank" rel="noreferrer" >
                   6 years old.
                 </a>{" "}
                 Building AI since{" "}
                 <a
                   href="https://replit.com/@amehra_5535/Hangman-Bot#main.cpp"
                   target="_blank"
+                  rel="noreferrer" 
                 >
                   11 years old.
                 </a>
@@ -96,7 +97,7 @@ function App() {
                 greatly, and I am very glad to be a part of its open-source
                 advancements for the democratization of AI. All of my research and
                 projects are publicly available on my{" "}
-                <a href="https://github.com/Jdka1" target="_blank">
+                <a href="https://github.com/Jdka1" target="_blank" rel="noreferrer" >
                   GitHub
                 </a>{" "}
                 with recreation, install, and application guides.
@@ -108,44 +109,20 @@ function App() {
 
 
           <Project
-            title="日本語 (Japanese)"
-            description={
-              <p>
-                Immersing myself in Japanese language and culture since 2018.
-                Participated in an exchange and host program in 2023—traveled to
-                Osaka, Kyoto, and Hiroshima where I made lifelong friends.
-                <br></br>
-                <br></br> Developed a {" "}
-                <a
-                  href="https://github.com/Jdka1/Kanji-Recognition"
-                  target="_blank"
-                >
-                  CNN based OCR (optical character recognition) model
-                </a>{" "}
-                to identify Kanji characters in a research project. <br></br>
-                <br></br> Currently practicing Japanese for conversational and
-                fluency and literacy, working on{" "}
-                <a
-                  href="https://docs.google.com/document/d/1Or-LR5FuShHkpLk3xenBmfHvi2g_QY8uS49a74R2Dhc/preview"
-                  target="_blank"
-                >{" "}
-                  translations
-                </a>{" "}
-                and{" "}
-                <a
-                  href="https://drive.google.com/file/d/1KcFXxN0al1vz-BiIN9fTVLcIatVbKGjo/view?usp=sharing"
-                  target="_blank"
-                >
-                  other various projects
-                </a>
-                , and planning to return to Japan soon.
-              </p>
-            }
-            image="dap.gif"
-            orientation="portrait"
-          ></Project>
+            title="Practicum"
+            image="lidar.gif"
+            orientation="landscape"
+            description={<p>
+              <center><i><a href="/reflection/3" target="_blank" rel="noreferrer" >Why you should work for your heroes.</a></i></center>
 
-          <Project
+              <br></br>
+
+              <i style={{ color: 'grey' }}>above: LiDAR input visualization for a sensor fusion home security system (current work)</i>
+            </p>}
+            ></Project>
+
+
+        <Project
             link="/gallery_room"
             title="Photography"
             description={
@@ -162,30 +139,70 @@ function App() {
                 <a
                   href="https://www.youtube.com/watch?v=_EGjFYGZgb8"
                   target="_blank"
+                  rel="noreferrer" 
                 >
                   The 15 Rules of Photography, and Why You Should Break/Use Them.
                 </a>
+
+                <br></br>
+                <br></br>
+                <br></br>
+                <i style={{ color: 'grey' }}>&larr; click to view gallery</i>
               </p>
             }
             image="holdingcamera.JPG"
             orientation="portrait"
           ></Project>
 
+
           <Project
-            title="Practicum"
+            title="日本語 (Japanese)"
             description={
-              "Recently, I received a piece of advice that I've taken to heart: \"Work for your heros.\" I am an entrepreneurial person and have been itching to get into the startup space forever, even more so because I live in the Bay Area. I always wanted to jump straight in and be founder but I realized that this would be an improbable path to success. No matter how many articles I had read or people I had talked to, I had no idea how to actually build a startup. I probably knew how to handle less than 10% of the tasks that would come up, and within the 10% I did know I would likely do 0% of those properly on the first try. The only way to efficiently solve these problems is to have direct experience dealing with them beforehand. This is why serial entrepreneurs such as Elon Musk, Steve Jobs, and Mark Zuckerberg—who get exponentially more successful with each company—exist.\n\n This year, I found a ML home security startup in San Francisco and I've managed to push my way into an ML engineering role. In this experience, I've been able to learn a profuse amount of skills and practices much more efficiently than I would have if I was on my own, and by surrounding myself with people who are where I want to be in 5 years I significantly grown my network and worldview and have been pushed to exceed and learn.\n\nI highly value real world experience as a core facet of my learning, and I am very grateful to have this exciting work experience. I am also planning to branch out and start my own venture in the near future."
+              <p>
+                Immersing myself in Japanese language and culture since 2018.
+                Participated in an exchange and host program in 2023—traveled to
+                Osaka, Kyoto, and Hiroshima where I made lifelong friends.
+                <br></br>
+                <br></br> Developed a {" "}
+                <a
+                  href="https://github.com/Jdka1/Kanji-Recognition"
+                  target="_blank"
+                  rel="noreferrer" 
+                >
+                  CNN based OCR (optical character recognition) model
+                </a>{" "}
+                to identify Kanji characters in a research project. <br></br>
+                <br></br> Currently practicing Japanese for conversational and
+                fluency and literacy, working on{" "}
+                <a
+                  href="https://docs.google.com/document/d/1Or-LR5FuShHkpLk3xenBmfHvi2g_QY8uS49a74R2Dhc/preview"
+                  target="_blank"
+                  rel="noreferrer" 
+                >{" "}
+                  translations
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://drive.google.com/file/d/1KcFXxN0al1vz-BiIN9fTVLcIatVbKGjo/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer" 
+                >
+                  other various projects
+                </a>
+                , and planning to return to Japan soon.
+              </p>
             }
-            image="lidar.gif"
-            orientation="landscape"
+            image="dap.gif"
+            orientation="portrait"
           ></Project>
+
 
           <Project
             title="Finance"
             description={
               <p>
                 I started learning about finance 2 years prior and have had a
-                vested interest in it since.
+                vested interest going deeper and teaching it since.
                 <br></br>
                 <br></br>
                 In my current financial ecosystem I use Fidelity as my main
@@ -193,52 +210,40 @@ function App() {
                 derivatives, I use Venmo and Cashapp for interpersonal
                 transactions, and Phantom as my cryptocurrency and NFT wallet
                 (planning to transition to Coinbase).
+
                 <br></br>
                 <br></br>
-                Similarly to my stance on AI, I strongly believe in democratized
+
+                <i style={{ color: 'grey' }}><b>Fidelity</b> (noun) – faithfulness to a person, cause, or belief, demonstrated by continuing loyalty and support &emsp;Oxford English Dictionary</i>
+                <br></br>
+                <br></br>
+                {/* Similarly to my stance on AI, I strongly believe in democratized
                 access to finance education. Thus, at The Nueva School I
                 co-founded a finance club to teach high schoolers at all
-                experience levels financial management through hands-on learning.
+                experience levels financial management through hands-on learning. */}
               </p>
             }
-            image="financeportfolio.png"
+            image="wallstreet.gif"
             orientation="portrait"
           ></Project>
 
           <Project
             title="Piano"
+            link="https://www.youtube.com/shorts/JBtvQVUFSKY"
             description={
               <p>
                 Started (was forced) to learn piano starting in 2011 and stopped
-                playing after a few years.
+                playing after a few years. Relearning since summer 2023.
+
                 <br></br>
                 <br></br>
-                In the summer of 2023 I picked up the instrument again, initially
-                as a form of leisure to relax, and started relearning the basics.
-                Since then, it has found a very important place in my life.
+
+                <i><a href="/reflection/1" target="_blank" rel="noreferrer" >Piano as physical therapy?</a></i>
+
                 <br></br>
                 <br></br>
-                Most of my joints are hypermobile (which you can probably tell
-                from{" "}
-                <a
-                  href="https://www.youtube.com/shorts/JBtvQVUFSKY"
-                  target="_blank"
-                >
-                  this video of me playing La Campanella
-                </a>
-                ), meaning they extend past the point they are supposed to. This
-                has caused my significant difficulties with injuries, especially
-                in the hands and fingers, when playing sports or even just doing
-                daily tasks. I saw many medical professionals but was
-                unfortunately not able to fix this issue, and after a long time I
-                decided to just deal with it.
                 <br></br>
-                <br></br>
-                From when I restarted playing piano, my fingers have gotten much
-                stronger as it has acted as a form of physical therapy for me, and
-                I haven't had a single joint injury in the past year. This, and my
-                pure enjoyment of playing the piano freely, is what makes me sure
-                I'll stick with it this time.
+                <i style={{ color: 'grey' }}>&larr; click to view renditions on YouTube</i>
               </p>
             }
             image="piano.gif"
@@ -247,17 +252,19 @@ function App() {
 
           <Project
             title="Sports"
-            description="Rower @ Pacific Rowing Club & Redwood Scullers, basketball point guard @ The Nueva School, and track star"
+            description="Rower @ Pacific Rowing Club & Redwood Scullers, Basketball Point Guard & Track @ The Nueva School"
             image="boxing.gif"
             orientation="landscape"
           ></Project>
 
           <Project
-            link="/articles"
-            title="Articles/Blog"
-            description={<p></p>}
-            image="articles.jpg"
-            orientation="landscape"
+            link="/reflections"
+            title="Reflections"
+            image="reflection.jpg"
+            orientation="portrait"
+            description={<p>
+              <i style={{ color: 'grey' }}>&larr; click to view my thoughts/writings/blog</i>
+            </p>}
           ></Project>
         </main>
       </Suspense>
