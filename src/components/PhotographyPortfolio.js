@@ -3,16 +3,16 @@ import "./PhotographyPortfolio.css";
 import Header from "./Header.js";
 
 const photos = [
-  { src: "4V7A3683.jpg", caption: "700 Miles, Harding Icefield, Kenai Fjords National Park", orientation: "landscape" },
-  { src: "4V7A3686.jpg", caption: "Climate Crisis, Harding Icefield, Kenai Fjords National Park", orientation: "landscape" },
-  { src: "4V7A3643.jpg", caption: "Icewalk, Harding Icefield, Kenai Fjords National Park", orientation: "portrait" },
-  { src: "4V7A6479-Edit.jpg", caption: "Mating season, ‘Ewa Forest Reserve", orientation: "landscape" },
-  { src: "4V7A1319.jpg", caption: "Quiet Intruder Amongst the Pines, Denali National Park", orientation: "portrait" },
-  { src: "4V7A2066.jpg", caption: "Paddington Bear, Chugach State Park", orientation: "landscape" },
-  // { src: "4V7A6236.jpg", caption: "\"Minn-waki\" Lake of the Spirits, Lake Minnewanka", orientation: "landscape" },
   { src: "4V7A5833-Enhanced-NR-Edit.jpg", caption: "Elemental, Lauterbrunnen", orientation: "landscape" },
   { src: "4V7A6203.jpg", caption: "Jewels, Moraine Lake, Banff National Park", orientation: "portrait" },
   { src: "4V7A5823-Edit-Edit.jpg", caption: "Atmospheric Chateau de Chillon, Montreux", orientation: "landscape" },
+  { src: "4V7A6479-Edit.jpg", caption: "Mating season, ‘Ewa Forest Reserve", orientation: "landscape" },
+  { src: "4V7A1319.jpg", caption: "Quiet Intruder Amongst the Pines, Denali National Park", orientation: "portrait" },
+  { src: "4V7A2066.jpg", caption: "Lost in Thought, Chugach State Park", orientation: "landscape" },
+  { src: "4V7A3683.jpg", caption: "700 Miles, Harding Icefield, Kenai Fjords National Park", orientation: "landscape" },
+  { src: "4V7A3686.jpg", caption: "Climate Crisis, Harding Icefield, Kenai Fjords National Park", orientation: "landscape" },
+  { src: "4V7A3643.jpg", caption: "Icewalk, Harding Icefield, Kenai Fjords National Park", orientation: "portrait" },
+  // { src: "4V7A6236.jpg", caption: "\"Minn-waki\" Lake of the Spirits, Lake Minnewanka", orientation: "landscape" },
   { src: "4V7A0138-Edit.jpg", caption: " \"Tisseyak\" Half Dome, Yosemite National Park", orientation: "landscape" },
   { src: "4V7A0770.jpg", caption: "Ode to Ansel Adams, Yosemite National Park", orientation: "landscape" },
   { src: "4V7A0096.jpg", caption: "Misty Bridalveil Fall, Yosemite National Park", orientation: "landscape" },
