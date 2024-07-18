@@ -184,3 +184,19 @@
 .photo-caption {
   width: 90%;
 }
+
+
+
+/* NEW */
+.photo-item {
+  overflow: hidden;
+}
+
+
+
+.photo-item {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
