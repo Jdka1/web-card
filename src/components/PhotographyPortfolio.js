@@ -33,7 +33,7 @@ const PhotoItem = ({ src, caption, orientation, onImageClick }) => {
 
   useEffect(() => {
     const updateCaptionPosition = () => {
-      if (imgRef.current && orientation === 'landscape') {
+      if (imgRef.current && orientation === 'landscape' || orientation === 'portrait') {
         setImgHeight(imgRef.current.clientHeight);
       }
     };
