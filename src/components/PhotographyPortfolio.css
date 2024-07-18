@@ -86,8 +86,7 @@
 }
 
 .photo-item img.portrait {
-  /* max-height: calc(87.5%); */
-  max-height: 38vw;
+  max-height: calc(87.5%);
 }
 
 
