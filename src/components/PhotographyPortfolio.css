@@ -19,7 +19,7 @@
 
 @media (max-width: 1500px) {
   .photo-caption {
-    font-size: calc(0.45em + 0.75vw) !important;
+    font-size: calc(0.45em + 0.65vw) !important;
   }
 }
 
@@ -57,7 +57,7 @@
   width: 100%;
   margin-bottom: auto;
   margin-top: auto;
-  font-size: calc(0.5em + 0.5vw);
+  font-size: calc(0.5em + 0.4vw);
   font-weight: 300;
   color: rgb(73, 73, 73);
 }
@@ -135,4 +135,13 @@
   max-height: 95%;
   object-fit: contain;
   cursor: zoom-out;
+}
+
+
+
+/* ###### Fonts ##### */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+.photo-caption {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
 }
