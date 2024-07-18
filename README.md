@@ -21,11 +21,3 @@ Articles
 
 
 TODO:
-
-- [ ] Link articles, photography
-- [ ] Find gifs for all cards
-- [ ] Short description, each card links to a page
-- [ ] Increase distance between cards on phone
-- [ ] change order of cards
-- [ ] group photos
-- [ ] change refresh time on staryan
