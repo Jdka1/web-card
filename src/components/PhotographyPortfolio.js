@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import "./PhotographyPortfolio.css";
 import Header from "./Header.js";
+import Bio from "./Bio.js";
 
 const photos = [
   { src: "4V7A5833-Enhanced-NR-Edit.jpg", caption: "Elemental, Lauterbrunnen", orientation: "landscape" },
@@ -103,6 +104,7 @@ const PhotoPortfolio = () => {
           />
         ))}
       </div>
+      <Bio/>
       {fullscreenSrc && <FullscreenOverlay src={fullscreenSrc} onClose={handleCloseFullscreen} />}
     </div>
   );

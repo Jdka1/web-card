@@ -1,0 +1,34 @@
+.bio p {
+    text-indent: 5%;
+    margin: 0.4em;
+    text-align: left; /* Ensures <p> tags are not centered */
+}
+
+.bio h3 {
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.bio {
+    margin: 0 auto;
+    margin-top: 20%;
+    color: rgb(73, 73, 73);
+    width: 25em;
+    max-width: 85vw;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.bio a {
+    display: block; /* Makes the <a> tag a block-level element */
+    margin: 0 auto; /* Centers the block-level element horizontally */
+    text-align: center; /* Centers the text within the <a> tag */
+    color: rgb(73, 73, 73);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+.bio {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+}
