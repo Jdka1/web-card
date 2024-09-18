@@ -10,7 +10,7 @@ function App() {
       <header className="header">
         <h1>Aryan Mehra</h1>
         <p>
-          Doing and dreaming the unprecedented. <br></br>
+          Doing and dreaming. <br></br>
           <br></br>
           <a href="mailto:staryan.mehra@gmail.com">staryan.mehra@gmail.com</a>
         </p>
