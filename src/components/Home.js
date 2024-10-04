@@ -135,19 +135,19 @@ function App() {
                 personal favorite.
                 <br></br>
                 <br></br>
-                In 9th grade, I created a video to teach{" "}
+                A video I created pertaining to{" "}
                 <a
                   href="https://www.youtube.com/watch?v=_EGjFYGZgb8"
                   target="_blank"
                   rel="noreferrer" 
                 >
-                  The 15 Rules of Photography, and Why You Should Break/Use Them.
+                  The 15 Rules of Photography, and Why You Should Break Them.
                 </a>
 
                 <br></br>
                 <br></br>
                 <br></br>
-                <i style={{ color: 'grey' }}>&larr; click to view gallery</i>
+                <i style={{ color: 'grey' }}>&larr; click to view work from solo exhibiton at the Kriewall-Haehl Gallery</i>
               </p>
             }
             image="holdingcamera.JPG"
@@ -202,7 +202,7 @@ function App() {
             description={
               <p>
                 I started learning about finance 2 years prior and have had a
-                vested interest going deeper and teaching it since.
+                vested interest going deeper since.
                 <br></br>
                 <br></br>
                 In my current financial ecosystem I use Fidelity as my main
