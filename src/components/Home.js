@@ -172,7 +172,7 @@ function App() {
                   CNN based OCR (optical character recognition) model
                 </a>{" "}
                 to identify Kanji characters in a research project. <br></br>
-                <br></br> Currently practicing Japanese for conversational and
+                <br></br> Currently practicing Japanese for conversational
                 fluency and literacy, working on{" "}
                 <a
                   href="https://docs.google.com/document/d/1Or-LR5FuShHkpLk3xenBmfHvi2g_QY8uS49a74R2Dhc/preview"
