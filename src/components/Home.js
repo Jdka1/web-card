@@ -59,6 +59,11 @@ function App() {
           </a>
         </div>
 
+        <div className="resume">
+          <a href="https://docs.google.com/document/d/1kxOjVyQgYts9RFKv7U1OOrNyfe1UKmpS8nGxj5COyxQ/edit?usp=sharing">Resume</a>
+        </div>
+
+
         <div className="me">
           <img
             src={`${process.env.PUBLIC_URL}/header_image_print.jpg`}
