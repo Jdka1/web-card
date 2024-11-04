@@ -6,7 +6,7 @@ import Bio from "./Bio.js";
 const photos = [
   { src: "4V7A5833-Enhanced-NR-Edit.jpg", caption: "Elemental, Lauterbrunnen", orientation: "landscape" },
   { src: "4V7A6203.jpg", caption: "Jewels, Moraine Lake, Banff National Park", orientation: "portrait" },
-  { src: "4V7A5823-Edit-Edit.jpg", caption: "Atmospheric Chateau de Chillon, Montreux", orientation: "landscape" },
+  { src: "4V7A5823-Edit-Edit.jpg", caption: "The Rock, Montreux", orientation: "landscape" },
   { src: "4V7A6479-Edit.jpg", caption: "Mating season, ‘Ewa Forest Reserve", orientation: "landscape" },
   { src: "4V7A1319.jpg", caption: "Quiet Intruder Amongst the Pines, Denali National Park", orientation: "portrait" },
   { src: "4V7A2066.jpg", caption: "Lost in Thought, Chugach State Park", orientation: "landscape" },
