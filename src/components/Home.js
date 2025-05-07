@@ -94,7 +94,7 @@ function App() {
                 <br></br>
                 <br></br>
                 Diving deep into transformer CV (computer vision) and NLP (natural
-                language processing) the past 3 years.
+                language processing) the past 4 years.
                 <br></br>
                 <br></br>
                 The pace of advancement in deep learning technology excites me
@@ -205,7 +205,7 @@ function App() {
             title="Finance"
             description={
               <p>
-                I started learning about finance 2 years prior and have had a
+                I started learning about finance 3 years prior and have had a
                 vested interest going deeper since.
                 <br></br>
                 <br></br>
