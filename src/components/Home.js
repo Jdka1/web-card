@@ -15,7 +15,7 @@ function App() {
           <a href="mailto:staryan.mehra@gmail.com">staryan.mehra@gmail.com</a>
           {" | "}
 
-          <a href="https://docs.google.com/document/d/1kxOjVyQgYts9RFKv7U1OOrNyfe1UKmpS8nGxj5COyxQ/edit?usp=sharing" target="_blank">My Resume</a>
+          <a href="https://docs.google.com/document/d/1oAP8V3vafuDO-wz0VL05D4mvrLSjk419jbGE_n8I3nU/edit?usp=sharing" target="_blank">My Resume</a>
         </p>
         <ScrollIndicator />
 
