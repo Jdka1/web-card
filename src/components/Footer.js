@@ -5,7 +5,7 @@ import './Footer.css'; // Import the CSS file
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; 2025 Aryan Mehra</p>
+      <p>&copy; 2026 Aryan Mehra</p>
     </footer>
   );
 }
